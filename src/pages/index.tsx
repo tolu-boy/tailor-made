@@ -16,7 +16,7 @@ export default function Home() {
       </Head>
       <main className={styles.main}>
         <div className={styles.description}>
-          <p>
+          <p className='bg-blue-900'>
             Get started by editing&nbsp;
             <code className={styles.code}>src/pages/index.tsx</code>
           </p>
@@ -116,6 +116,10 @@ export default function Home() {
               with&nbsp;Vercel.
             </p>
           </a>
+
+          <h1 className="text-3xl font-bold underline bg-red-500">
+      Hello world!
+    </h1>
         </div>
       </main>
     </>
